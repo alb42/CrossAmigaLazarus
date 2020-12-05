@@ -53,44 +53,44 @@
       <CallStackDlg ViewCount="0"/>
     </Debugger>
     <DebuggerFilename Value="gdb"/>
-    <AutoSave LastSavedProjectFile="/sources/test1/project1.lpi"/>
-    <ManyBuildModesSelection Count="2">
-      <Item1 Value="Default"/>
-      <Item2 Value="Amiga m68k"/>
+    <ManyBuildModesSelection Count="4">
+      <Item1 Value="Amiga m68k"/>
+      <Item2 Value="Amiga OS4"/>
+      <Item3 Value="AROS i386"/>
+      <Item4 Value="MorphOS"/>
     </ManyBuildModesSelection>
   </EnvironmentOptions>
   <ObjectInspectorOptions ShowHints="False" InfoBoxHeight="39">
     <Version Value="3"/>
   </ObjectInspectorOptions>
   <BuildMatrix Count="2">
-    <Item1 ID="111457249591" Type="IDEMacro" MacroName="LCLWidgetType" Value="mui" Modes="Amiga m68k"/>
-    <Item2 ID="472679150329" Value="-XV -Avasm" Modes="Amiga m68k"/>
+    <Item1 ID="111457249591" Type="IDEMacro" MacroName="LCLWidgetType" Value="mui" Modes="Amiga m68k,Amiga OS4,AROS i386,MorphOS"/>
+    <Item2 ID="472679150329" Value="-XV -Avasm" Modes="Amiga m68k,Amiga OS4,MorphOS"/>
   </BuildMatrix>
   <Desktops Count="1" ActiveDesktop="default">
     <Desktop1 Name="default">
       <Desktop Version="2" FormIdCount="31">
-        <FormIdList a1="MainIDE" a2="SourceNotebook" a3="MessagesView" a4="ObjectInspectorDlg" a5="Watches" a6="BreakPoints" a7="Locals" a8="CallStack" a9="EvaluateModify" a10="Registers" a11="Assembler" a12="DbgOutput" a13="Inspect" a14="DbgEvents" a15="PseudoTerminal" a16="Threads" a17="DbgHistory" a18="UnitDependencies" a19="CodeExplorerView" a20="FPDocEditor" a21="ClipBrdHistory" a22="PkgGraphExplorer" a23="ProjectInspector" a24="EditorFileManager" a25="SearchResults" a26="AnchorEditor" a27="TabOrderEditor" a28="CodeBrowser" a29="IssueBrowser" a30="JumpHistory" a31="ComponentList"/>
+        <FormIdList a1="MainIDE" a2="ObjectInspectorDlg" a3="MessagesView" a4="SourceNotebook" a5="Watches" a6="BreakPoints" a7="Locals" a8="CallStack" a9="EvaluateModify" a10="Registers" a11="Assembler" a12="DbgOutput" a13="Inspect" a14="DbgEvents" a15="PseudoTerminal" a16="Threads" a17="DbgHistory" a18="UnitDependencies" a19="CodeExplorerView" a20="FPDocEditor" a21="ClipBrdHistory" a22="PkgGraphExplorer" a23="ProjectInspector" a24="EditorFileManager" a25="SearchResults" a26="AnchorEditor" a27="TabOrderEditor" a28="CodeBrowser" a29="IssueBrowser" a30="JumpHistory" a31="ComponentList"/>
       </Desktop>
       <MainIDE>
         <Caption Value="MainIDE"/>
         <CustomPosition Width="1920" Height="88"/>
         <Visible Value="True"/>
       </MainIDE>
-      <SourceNotebook>
-        <Caption Value="SourceNotebook"/>
-        <CustomPosition Left="242" Top="132" Width="744" Height="712"/>
-        <Visible Value="True"/>
-      </SourceNotebook>
-      <MessagesView>
-        <Caption Value="MessagesView"/>
-        <CustomPosition Left="272" Top="873" Width="744" Height="144"/>
-        <Visible Value="True"/>
-      </MessagesView>
       <ObjectInspectorDlg>
         <Caption Value="ObjectInspectorDlg"/>
         <CustomPosition Left="-5" Top="116" Width="180" Height="914"/>
         <Visible Value="True"/>
       </ObjectInspectorDlg>
+      <MessagesView>
+        <Caption Value="MessagesView"/>
+        <CustomPosition Left="272" Top="873" Width="744" Height="144"/>
+        <Visible Value="True"/>
+      </MessagesView>
+      <SourceNotebook>
+        <Caption Value="SourceNotebook"/>
+        <CustomPosition Left="242" Top="132" Width="744" Height="712"/>
+      </SourceNotebook>
       <Watches>
         <Caption Value="Watches"/>
       </Watches>
