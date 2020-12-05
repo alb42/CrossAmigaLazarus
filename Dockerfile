@@ -18,5 +18,5 @@ RUN wget https://build.alb42.de/fpcdocker/crossfpc-3.2.0-amiga.tar.gz && tar -zx
 # install default options
 ADD environmentoptions.xml /root/.lazarus/
 ADD projectoptions.xml /root/.lazarus/
-ADD Sources/startvnc /usr/bin/
+ADD startvnc /usr/bin/
 ADD muiwsdialogs.pp /usr/share/lazarus/2.0.10/lcl/interfaces/mui/
