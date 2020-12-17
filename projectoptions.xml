@@ -14,7 +14,7 @@
       </XPManifest>
       <Icon Value="0"/>
     </General>
-    <BuildModes Count="4">
+    <BuildModes Count="5">
       <Item1 Name="Default" Default="True"/>
       <Item2 Name="Amiga m68k">
         <CompilerOptions>
@@ -88,6 +88,32 @@
           </Linking>
         </CompilerOptions>
       </Item4>
+      <Item5 Name="Amiga OS4">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="lib/$(TargetCPU)-$(TargetOS)/project1"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <TargetCPU Value="powerpc"/>
+            <TargetOS Value="amiga"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item5>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>

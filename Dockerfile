@@ -13,7 +13,7 @@ RUN wget https://build.alb42.de/fpcdocker/lazarus-project_2.0.10-0_amd64.deb && 
 RUN apt-get clean && apt-get autoremove -y
 
 # Installing Amiga cross compiler
-RUN wget https://build.alb42.de/fpcdocker/crossfpc-3.2.0-amiga.tar.gz && tar -zxvf crossfpc-3.2.0-amiga.tar.gz -C /usr/ && rm crossfpc-3.2.0-amiga.tar.gz
+RUN wget https://build.alb42.de/fpcdocker/crossfpc-3.2.0-amiga2.tar.gz && tar -zxvf crossfpc-3.2.0-amiga2.tar.gz -C /usr/ && rm crossfpc-3.2.0-amiga2.tar.gz
 
 # install default options
 ADD environmentoptions.xml /root/.lazarus/

@@ -65,7 +65,7 @@
   </ObjectInspectorOptions>
   <BuildMatrix Count="2">
     <Item1 ID="111457249591" Type="IDEMacro" MacroName="LCLWidgetType" Value="mui" Modes="Amiga m68k,Amiga OS4,AROS i386,MorphOS"/>
-    <Item2 ID="472679150329" Value="-XV -Avasm" Modes="Amiga m68k,Amiga OS4,MorphOS"/>
+    <Item2 ID="472679150329" Value="-XV -Avasm" Modes="Amiga m68k,MorphOS"/>
   </BuildMatrix>
   <Desktops Count="1" ActiveDesktop="default">
     <Desktop1 Name="default">
@@ -89,7 +89,7 @@
       </MessagesView>
       <SourceNotebook>
         <Caption Value="SourceNotebook"/>
-        <CustomPosition Left="242" Top="132" Width="744" Height="712"/>
+        <CustomPosition Left="492" Top="117" Width="744" Height="712"/>
       </SourceNotebook>
       <Watches>
         <Caption Value="Watches"/>
