@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <EnvironmentOptions>
-    <Version Value="110" Lazarus="2.0.10"/>
-    <LazarusDirectory Value="/usr/share/lazarus/2.0.10">
+    <Version Value="110" Lazarus="2.0.12"/>
+    <LazarusDirectory Value="/usr/share/lazarus/2.0.12">
       <History Count="1">
         <Item1 Value="/usr/lib/lazarus/"/>
       </History>
@@ -47,7 +47,7 @@
       </OpenFiles>
     </Recent>
     <ExternalTools Version="3"/>
-    <LastCalledByLazarusFullPath Value="/usr/share/lazarus/2.0.10/lazarus"/>
+    <LastCalledByLazarusFullPath Value="/usr/share/lazarus/2.0.12/lazarus"/>
     <Debugger Class="TGDBMIDebugger">
       <WatchesDlg ColumnNameWidth="-1" ColumnValueWidth="-1"/>
       <CallStackDlg ViewCount="0"/>
